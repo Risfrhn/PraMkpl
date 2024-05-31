@@ -15,6 +15,7 @@ public class Calculator {
         // Method with too many responsibilities
         int result = num1 + num2 - num3 * num4 / num5;
         return result;
+        System.out.println("Hello, World!");
     }
 
     // Method with magic number
